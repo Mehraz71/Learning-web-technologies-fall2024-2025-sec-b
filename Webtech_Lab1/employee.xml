@@ -1,0 +1,47 @@
+<emplyoees>
+	<emplyoee>
+		<e_id> 1 </e_id>
+		<e_name> John Doe </e_name>
+		<e_add> 
+				<f>    </f>
+				<h> 38 </h>
+				<r> 3  </r>
+				<a> Banani </a>
+				<d> Dhaka  </d>
+		</e_add>
+		<e_dept> Sales </e_dept>
+		<e_sal>  $200000 </e_sal>
+	
+	</emplyoee>
+	
+	<emplyoee>
+		<e_id> 2 </e_id>
+		<e_name> Mark Zuckerberg </e_name>
+		<e_add> 
+				<f>  A/1  </f>
+				<h> 20 </h>
+				<r> 18  </r>
+				<a> Mirpur </a>
+				<d> Dhaka  </d>
+		</e_add>
+		<e_dept> Accounts </e_dept>
+		<e_sal>  $12000 </e_sal>
+	
+	</emplyoee>
+	
+	<emplyoee>
+		<e_id> 1 </e_id>
+		<e_name> Ala Voski </e_name>
+		<e_add> 
+				<f>    </f>
+				<h> 38 </h>
+				<r> 3  </r>
+				<a> Motijheel </a>
+				<d>   </d>
+		</e_add>
+		<e_dept> Human Resource </e_dept>
+		<e_sal>  $30000 </e_sal>
+	
+	</emplyoee>
+</emplyoees>
+				
