@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date of Birth Validation</title>
+  </head>
+  <body>
+    <form method="post" action="dob.php">
+      <fieldset>
+        <legend>Date of Birth</legend>
+        <table>
+          <tr>
+            <th>Day (dd)</th>
+            <th>Month (mm)</th>
+            <th>Year (yyyy)</th>
+          </tr>
+          <tr>
+            <td>
+              <input type="number" name="day" min="1" placeholder="DD" />
+            </td>
+            <td>
+              <input type="number" name="month" min="1" placeholder="MM" />
+            </td>
+            <td>
+              <input type="number" name="year" min="1953" placeholder="YYYY" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <input type="submit" name="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
