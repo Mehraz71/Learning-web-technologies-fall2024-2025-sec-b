@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gender Validation</title>
+  </head>
+  <body>
+    <form method="post" action="gender.php">
+      <fieldset>
+        <legend>Gender</legend>
+        <table>
+          <tr>
+            <td><input type="radio" name="gender" value="Male" /></td>
+            <th>Male</th>
+            <td><input type="radio" name="gender" value="Female" /></td>
+            <th>Female</th>
+            <td><input type="radio" name="gender" value="Other" /></td>
+            <th>Other</th>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <input type="submit" name="submit" value="Submit" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
