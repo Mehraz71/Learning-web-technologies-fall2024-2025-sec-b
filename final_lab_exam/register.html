@@ -1,0 +1,48 @@
+<html>
+  <html lang="en">
+    <head>
+      <title>Registration</title>
+      <script src="reg.js"></script>
+    </head>
+    <body>
+      <form method="post" action="regcheck.php">
+        <h1 id="head">Employee</h1>
+        <p>Employee Name :</p>
+        <input type="text" name="empname" id="empname" />
+
+        <p>Contact_NO :</p>
+        <input type="number" name="contactno" id="contactno" />
+
+        <p>Username:</p>
+        <input type="text" name="username" id="username" />
+
+        <p>Password :</p>
+        <input type="password" name="password" id="password" />
+
+        <input
+          type="submit"
+          name="submit"
+          value="Register User"
+          onclick="ajax()"
+        />
+      </form>
+      <script>
+        function ajax() {
+          let empname = document.getElementById("empname").value;
+          let contactno = document.getElementById("contactno").value;
+          let username = document.getElementById("username").value;
+          let password = document.getElementById("password").value;
+
+          if (
+            empname === "" ||
+            contactno === "" ||
+            username === "" ||
+            password === ""
+          ) {
+            alert("All fields are required!");
+          }
+        }
+      </script>
+    </body>
+  </html>
+</html>
