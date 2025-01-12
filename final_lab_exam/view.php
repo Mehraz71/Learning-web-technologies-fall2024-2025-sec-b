@@ -8,7 +8,6 @@
  
  
  if ($result->num_rows > 0) {
-    // Start of the HTML table to display the results
     echo "<table border='1'>
             <tr>
                 <th>ID</th>
@@ -20,7 +19,7 @@
                 
             </tr>";
 
-    // Loop through the result set and display each row
+  
     while($row = $result->fetch_assoc()) {
         echo "<tr>
                 <td>" . $row["employee_ID"] . "</td>
